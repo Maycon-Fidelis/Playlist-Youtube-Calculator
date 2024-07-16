@@ -31,7 +31,7 @@ var array;
 
 function requisicao_informacoes(url) {
 
-    fetch(`playlist-youtube-calculator-production.up.railway.app?url=${(url)}`)
+    fetch(`https://playlist-youtube-calculator-production.up.railway.app?url=${(url)}`)
         .then(response => response.json())
         .then(data => {
             if ('error' in data) {
