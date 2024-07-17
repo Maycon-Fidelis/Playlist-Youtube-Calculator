@@ -1,7 +1,7 @@
 {
-  "name": "conversor-moedas",
+  "name": "Playlist-Youtube-Calculator",
   "version": "1.0.0",
-  "description": "Este é um projeto de conversor de moedas que permite converter o valor de 5 moedas diferentes. A cotação de cada moeda é obtida em tempo real utilizando a API da awesomeAPI.",
+  "description": "Este é um projeto que permite calcular a duração de uma playlist do youtube.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
