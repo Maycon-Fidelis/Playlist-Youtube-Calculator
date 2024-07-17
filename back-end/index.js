@@ -18,7 +18,7 @@ app.use(cors(corsOptions));
 const { google } = require('googleapis');
 const { composer } = require('googleapis/build/src/apis/composer');
 const { content } = require('googleapis/build/src/apis/content'); 
-const api_key = `'${process.env.API_KEY}'`; // Alterar para sua API_KEY
+const api_key = process.env.API_KEY; // Alterar para sua API_KEY
 // CONFIGURANDO A API DO YOUTUBE
 
 // Requisição pela API   //
